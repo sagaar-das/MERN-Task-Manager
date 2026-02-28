@@ -8,7 +8,7 @@ function App() {
   const [filter, setFilter] = useState("all");
   const [message, setMessage] = useState("");
 
-  const API = "http://localhost:5000/api/tasks";
+  const API = "https://mern-task-manager-2-u258.onrender.com/api/tasks";
 
   const fetchTasks = async () => {
     const response = await axios.get(API);
